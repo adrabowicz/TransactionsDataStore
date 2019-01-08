@@ -1,0 +1,502 @@
+[
+  {
+    "EncounterId": "1577",
+    "EncounterStartDate": "2018-07-12T12:00:00.000",
+    "EncounterEndDate": "2018-07-15T12:00:00.000"
+  },
+  {
+    "EncounterId": "3875",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-30T12:00:00.000"
+  },
+  {
+    "EncounterId": "4595",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-08T12:00:00.000"
+  },
+  {
+    "EncounterId": "1836",
+    "EncounterStartDate": "2018-07-11T12:00:00.000",
+    "EncounterEndDate": "2018-07-14T12:00:00.000"
+  },
+  {
+    "EncounterId": "194",
+    "EncounterStartDate": "2018-07-03T12:00:00.000",
+    "EncounterEndDate": "2018-07-17T12:00:00.000"
+  },
+  {
+    "EncounterId": "2622",
+    "EncounterStartDate": "2018-07-07T12:00:00.000",
+    "EncounterEndDate": "2018-07-09T12:00:00.000"
+  },
+  {
+    "EncounterId": "5120",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-07T12:00:00.000"
+  },
+  {
+    "EncounterId": "8389",
+    "EncounterStartDate": "2018-07-14T12:00:00.000",
+    "EncounterEndDate": "2018-07-17T12:00:00.000"
+  },
+  {
+    "EncounterId": "2340",
+    "EncounterStartDate": "2018-07-07T12:00:00.000",
+    "EncounterEndDate": "2018-07-17T12:00:00.000"
+  },
+  {
+    "EncounterId": "5637",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "9338",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-15T12:00:00.000"
+  },
+  {
+    "EncounterId": "1653",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-15T12:00:00.000"
+  },
+  {
+    "EncounterId": "2942",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "3398",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-02T12:00:00.000"
+  },
+  {
+    "EncounterId": "3356",
+    "EncounterStartDate": "2018-07-10T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "8254",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-19T12:00:00.000"
+  },
+  {
+    "EncounterId": "9434",
+    "EncounterStartDate": "2018-07-05T12:00:00.000",
+    "EncounterEndDate": "2018-07-23T12:00:00.000"
+  },
+  {
+    "EncounterId": "3170",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-22T12:00:00.000"
+  },
+  {
+    "EncounterId": "6137",
+    "EncounterStartDate": "2018-07-04T12:00:00.000",
+    "EncounterEndDate": "2018-07-25T12:00:00.000"
+  },
+  {
+    "EncounterId": "3895",
+    "EncounterStartDate": "2018-07-05T12:00:00.000",
+    "EncounterEndDate": "2018-07-18T12:00:00.000"
+  },
+  {
+    "EncounterId": "3639",
+    "EncounterStartDate": "2018-07-03T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "8778",
+    "EncounterStartDate": "2018-07-14T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "4339",
+    "EncounterStartDate": "2018-07-04T12:00:00.000",
+    "EncounterEndDate": "2018-07-09T12:00:00.000"
+  },
+  {
+    "EncounterId": "5185",
+    "EncounterStartDate": "2018-07-13T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "2039",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "3319",
+    "EncounterStartDate": "2018-07-03T12:00:00.000",
+    "EncounterEndDate": "2018-07-09T12:00:00.000"
+  },
+  {
+    "EncounterId": "8506",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-22T12:00:00.000"
+  },
+  {
+    "EncounterId": "8422",
+    "EncounterStartDate": "2018-07-07T12:00:00.000",
+    "EncounterEndDate": "2018-07-19T12:00:00.000"
+  },
+  {
+    "EncounterId": "7661",
+    "EncounterStartDate": "2018-07-10T12:00:00.000",
+    "EncounterEndDate": "2018-07-20T12:00:00.000"
+  },
+  {
+    "EncounterId": "2590",
+    "EncounterStartDate": "2018-07-10T12:00:00.000",
+    "EncounterEndDate": "2018-07-19T12:00:00.000"
+  },
+  {
+    "EncounterId": "115",
+    "EncounterStartDate": "2018-07-09T12:00:00.000",
+    "EncounterEndDate": "2018-07-17T12:00:00.000"
+  },
+  {
+    "EncounterId": "5042",
+    "EncounterStartDate": "2018-07-14T12:00:00.000",
+    "EncounterEndDate": "2018-07-17T12:00:00.000"
+  },
+  {
+    "EncounterId": "8076",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "5218",
+    "EncounterStartDate": "2018-07-07T12:00:00.000",
+    "EncounterEndDate": "2018-07-11T12:00:00.000"
+  },
+  {
+    "EncounterId": "3244",
+    "EncounterStartDate": "2018-07-06T12:00:00.000",
+    "EncounterEndDate": "2018-07-14T12:00:00.000"
+  },
+  {
+    "EncounterId": "8196",
+    "EncounterStartDate": "2018-07-07T12:00:00.000",
+    "EncounterEndDate": "2018-07-09T12:00:00.000"
+  },
+  {
+    "EncounterId": "6171",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-02T12:00:00.000"
+  },
+  {
+    "EncounterId": "6919",
+    "EncounterStartDate": "2018-07-05T12:00:00.000",
+    "EncounterEndDate": "2018-07-22T12:00:00.000"
+  },
+  {
+    "EncounterId": "7967",
+    "EncounterStartDate": "2018-07-09T12:00:00.000",
+    "EncounterEndDate": "2018-07-19T12:00:00.000"
+  },
+  {
+    "EncounterId": "8118",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-12T12:00:00.000"
+  },
+  {
+    "EncounterId": "4672",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-19T12:00:00.000"
+  },
+  {
+    "EncounterId": "8911",
+    "EncounterStartDate": "2018-07-03T12:00:00.000",
+    "EncounterEndDate": "2018-07-10T12:00:00.000"
+  },
+  {
+    "EncounterId": "9440",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-09T12:00:00.000"
+  },
+  {
+    "EncounterId": "5064",
+    "EncounterStartDate": "2018-07-11T12:00:00.000",
+    "EncounterEndDate": "2018-07-12T12:00:00.000"
+  },
+  {
+    "EncounterId": "6681",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-08T12:00:00.000"
+  },
+  {
+    "EncounterId": "2867",
+    "EncounterStartDate": "2018-07-05T12:00:00.000",
+    "EncounterEndDate": "2018-07-05T12:00:00.000"
+  },
+  {
+    "EncounterId": "7348",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-11T12:00:00.000"
+  },
+  {
+    "EncounterId": "7202",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "8032",
+    "EncounterStartDate": "2018-07-10T12:00:00.000",
+    "EncounterEndDate": "2018-07-13T12:00:00.000"
+  },
+  {
+    "EncounterId": "2126",
+    "EncounterStartDate": "2018-07-05T12:00:00.000",
+    "EncounterEndDate": "2018-07-13T12:00:00.000"
+  },
+  {
+    "EncounterId": "4785",
+    "EncounterStartDate": "2018-07-11T12:00:00.000",
+    "EncounterEndDate": "2018-07-15T12:00:00.000"
+  },
+  {
+    "EncounterId": "6223",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-15T12:00:00.000"
+  },
+  {
+    "EncounterId": "1228",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-07T12:00:00.000"
+  },
+  {
+    "EncounterId": "866",
+    "EncounterStartDate": "2018-07-07T12:00:00.000",
+    "EncounterEndDate": "2018-07-23T12:00:00.000"
+  },
+  {
+    "EncounterId": "8345",
+    "EncounterStartDate": "2018-07-14T12:00:00.000",
+    "EncounterEndDate": "2018-07-15T12:00:00.000"
+  },
+  {
+    "EncounterId": "7695",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-23T12:00:00.000"
+  },
+  {
+    "EncounterId": "7278",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-07T12:00:00.000"
+  },
+  {
+    "EncounterId": "802",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-08T12:00:00.000"
+  },
+  {
+    "EncounterId": "1290",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-06T12:00:00.000"
+  },
+  {
+    "EncounterId": "328",
+    "EncounterStartDate": "2018-07-12T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "6976",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-07T12:00:00.000"
+  },
+  {
+    "EncounterId": "7418",
+    "EncounterStartDate": "2018-07-11T12:00:00.000",
+    "EncounterEndDate": "2018-07-20T12:00:00.000"
+  },
+  {
+    "EncounterId": "6995",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "8003",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-09T12:00:00.000"
+  },
+  {
+    "EncounterId": "2775",
+    "EncounterStartDate": "2018-07-03T12:00:00.000",
+    "EncounterEndDate": "2018-07-05T12:00:00.000"
+  },
+  {
+    "EncounterId": "903",
+    "EncounterStartDate": "2018-07-10T12:00:00.000",
+    "EncounterEndDate": "2018-07-10T12:00:00.000"
+  },
+  {
+    "EncounterId": "5120",
+    "EncounterStartDate": "2018-07-14T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "1555",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-09T12:00:00.000"
+  },
+  {
+    "EncounterId": "4505",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-11T12:00:00.000"
+  },
+  {
+    "EncounterId": "1809",
+    "EncounterStartDate": "2018-07-06T12:00:00.000",
+    "EncounterEndDate": "2018-07-24T12:00:00.000"
+  },
+  {
+    "EncounterId": "6833",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-12T12:00:00.000"
+  },
+  {
+    "EncounterId": "7301",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-11T12:00:00.000"
+  },
+  {
+    "EncounterId": "4211",
+    "EncounterStartDate": "2018-07-06T12:00:00.000",
+    "EncounterEndDate": "2018-07-08T12:00:00.000"
+  },
+  {
+    "EncounterId": "2292",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-04T12:00:00.000"
+  },
+  {
+    "EncounterId": "9359",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-29T12:00:00.000"
+  },
+  {
+    "EncounterId": "9189",
+    "EncounterStartDate": "2018-07-14T12:00:00.000",
+    "EncounterEndDate": "2018-07-15T12:00:00.000"
+  },
+  {
+    "EncounterId": "941",
+    "EncounterStartDate": "2018-07-13T12:00:00.000",
+    "EncounterEndDate": "2018-07-15T12:00:00.000"
+  },
+  {
+    "EncounterId": "20",
+    "EncounterStartDate": "2018-07-01T12:00:00.000",
+    "EncounterEndDate": "2018-07-26T12:00:00.000"
+  },
+  {
+    "EncounterId": "8917",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-08T12:00:00.000"
+  },
+  {
+    "EncounterId": "7948",
+    "EncounterStartDate": "2018-07-09T12:00:00.000",
+    "EncounterEndDate": "2018-07-12T12:00:00.000"
+  },
+  {
+    "EncounterId": "6094",
+    "EncounterStartDate": "2018-07-05T12:00:00.000",
+    "EncounterEndDate": "2018-07-18T12:00:00.000"
+  },
+  {
+    "EncounterId": "9664",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "7392",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-04T12:00:00.000"
+  },
+  {
+    "EncounterId": "9268",
+    "EncounterStartDate": "2018-07-09T12:00:00.000",
+    "EncounterEndDate": "2018-07-12T12:00:00.000"
+  },
+  {
+    "EncounterId": "4482",
+    "EncounterStartDate": "2018-07-11T12:00:00.000",
+    "EncounterEndDate": "2018-07-18T12:00:00.000"
+  },
+  {
+    "EncounterId": "3175",
+    "EncounterStartDate": "2018-07-05T12:00:00.000",
+    "EncounterEndDate": "2018-07-26T12:00:00.000"
+  },
+  {
+    "EncounterId": "8511",
+    "EncounterStartDate": "2018-07-04T12:00:00.000",
+    "EncounterEndDate": "2018-07-17T12:00:00.000"
+  },
+  {
+    "EncounterId": "4900",
+    "EncounterStartDate": "2018-07-08T12:00:00.000",
+    "EncounterEndDate": "2018-07-17T12:00:00.000"
+  },
+  {
+    "EncounterId": "4462",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-14T12:00:00.000"
+  },
+  {
+    "EncounterId": "2911",
+    "EncounterStartDate": "2018-07-11T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "8971",
+    "EncounterStartDate": "2018-07-13T12:00:00.000",
+    "EncounterEndDate": "2018-07-18T12:00:00.000"
+  },
+  {
+    "EncounterId": "4531",
+    "EncounterStartDate": "2018-07-10T12:00:00.000",
+    "EncounterEndDate": "2018-07-19T12:00:00.000"
+  },
+  {
+    "EncounterId": "4256",
+    "EncounterStartDate": "2018-07-10T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "2722",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "1693",
+    "EncounterStartDate": "2018-07-03T12:00:00.000",
+    "EncounterEndDate": "2018-07-09T12:00:00.000"
+  },
+  {
+    "EncounterId": "684",
+    "EncounterStartDate": "2018-07-03T12:00:00.000",
+    "EncounterEndDate": "2018-07-12T12:00:00.000"
+  },
+  {
+    "EncounterId": "904",
+    "EncounterStartDate": "2018-07-09T12:00:00.000",
+    "EncounterEndDate": "2018-07-12T12:00:00.000"
+  },
+  {
+    "EncounterId": "6894",
+    "EncounterStartDate": "2018-07-09T12:00:00.000",
+    "EncounterEndDate": "2018-07-13T12:00:00.000"
+  },
+  {
+    "EncounterId": "338",
+    "EncounterStartDate": "2018-07-15T12:00:00.000",
+    "EncounterEndDate": "2018-07-16T12:00:00.000"
+  },
+  {
+    "EncounterId": "977",
+    "EncounterStartDate": "2018-07-02T12:00:00.000",
+    "EncounterEndDate": "2018-07-14T12:00:00.000"
+  }
+]

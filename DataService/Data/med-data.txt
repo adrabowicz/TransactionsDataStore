@@ -1,0 +1,10 @@
+Id|MedId|Dispensed Medication|Drug|Form|Dose|Units
+1|Fentanyl tablet 5 mg	Fentanyl|tablet|5 mg|mg
+2|Fentanyl tablet 10 mg|Fentanyl|tablet|10 mg|mg
+3|Fentanyl tablet 20 mg|Fentanyl|tablet|20 mg|mg
+4|Oxycodone injectable 20 ml|Oxycodone|injectable|20 ml|ml
+5|Oxycodone injectable 40 ml|Oxycodone|injectable|40 ml|ml
+6|Morphine injectable 5 ml|Morphine|injectable|5 ml|ml
+7|Morphine injectable 10 ml|Morphine|injectable|10 ml|ml
+8|Morphine injectable 15 ml|Morphine|injectable|15 ml|mll
+9|Hydromorphone Hydrochloride tablet 400 mg|Hydromorphone Hydrochloride|tablet|400 mg|mg

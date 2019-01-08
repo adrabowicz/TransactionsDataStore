@@ -1,0 +1,74 @@
+﻿{
+  "mappings": {
+    "transaction": {
+      "properties": {
+        "Id": {
+          "type": "text"
+        },
+        "Timestamp": {
+          "type": "text"
+        },
+        "SourceId": {
+          "type": "text"
+        },
+        "EncounterId ": {
+          "type": "text"
+        },
+        "PartyId": {
+          "type": "text"
+        },
+        "MedId": {
+          "type": "text"
+        },
+        "SourceType": {
+          "type": "text"
+        },
+        "EncounterStartDate": {
+          "type": "date",
+          "format": "strict_date_optional_time||epoch_millis"
+        },
+        "EncounterEndDate": {
+          "type": "date",
+          "format": "strict_date_optional_time||epoch_millis"
+        },
+        "TransactionType": {
+          "type": "text"
+        },
+        "TransactionDateTime": {
+          "type": "date",
+          "format": "strict_date_optional_time||epoch_millis"
+        },
+        "TransactionAmount": {
+          "type": "double"
+        },
+        "TransactionUnits": {
+          "type": "text"
+        },
+        "PartyMaskedName": {
+          "type": "text"
+        },
+        "PartyName": {
+          "type": "text"
+        },
+        "DispensedMedication": {
+          "type": "text"
+        },
+        "FormularyDrug": {
+          "type": "text"
+        },
+        "FormularyForm": {
+          "type": "text"
+        },
+        "FormularyDose": {
+          "type": "text"
+        },
+        "FormularyDoseAmount": {
+          "type": "double"
+        },
+        "FormularyDoseUnits": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}

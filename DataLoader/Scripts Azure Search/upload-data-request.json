@@ -1,0 +1,24 @@
+﻿{
+  "value": [
+    {
+      "@search.action": "upload",
+      "FileName": "file1",
+      "MaximumAge": 11
+    },
+    {
+      "@search.action": "upload",
+      "FileName": "file3",
+      "MaximumAge": 22
+    },
+    {
+      "@search.action": "upload",
+      "FileName": "file3",
+      "MaximumAge": 33
+    },
+    {
+      "@search.action": "upload",
+      "FileName": "file4",
+      "MaximumAge": 44
+    }
+  ]
+}

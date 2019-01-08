@@ -1,0 +1,74 @@
+[
+  {
+    "MedId": "2383",
+    "DispensedMedication": "Fentanyl tablet 5 mg",
+    "Drug": "Fentanyl",
+    "Form": "tablet",
+    "Dose": "5 mg",
+    "Units": "mg"
+  },
+  {
+    "MedId": "8844",
+    "DispensedMedication": "Fentanyl tablet 10 mg",
+    "Drug": "Fentanyl",
+    "Form": "tablet",
+    "Dose": "10 mg",
+    "Units": "mg"
+  },
+  {
+    "MedId": "5494",
+    "DispensedMedication": "Fentanyl tablet 20 mg",
+    "Drug": "Fentanyl",
+    "Form": "tablet",
+    "Dose": "20 mg",
+    "Units": "mg"
+  },
+  {
+    "MedId": "3857",
+    "DispensedMedication": "Oxycodone injectable 20 ml",
+    "Drug": "Oxycodone",
+    "Form": "injectable",
+    "Dose": "20 ml",
+    "Units": "ml"
+  },
+  {
+    "MedId": "1447",
+    "DispensedMedication": "Oxycodone injectable 40 ml",
+    "Drug": "Oxycodone",
+    "Form": "injectable",
+    "Dose": "40 ml",
+    "Units": "ml"
+  },
+  {
+    "MedId": "2111",
+    "DispensedMedication": "Morphine injectable 5 ml",
+    "Drug": "Morphine",
+    "Form": "injectable",
+    "Dose": "5 ml",
+    "Units": "ml"
+  },
+  {
+    "MedId": "7027",
+    "DispensedMedication": "Morphine injectable 10 ml",
+    "Drug": "Morphine",
+    "Form": "injectable",
+    "Dose": "10 ml",
+    "Units": "ml"
+  },
+  {
+    "MedId": "7520",
+    "DispensedMedication": "Morphine injectable 15 ml",
+    "Drug": "Morphine",
+    "Form": "injectable",
+    "Dose": "15 ml",
+    "Units": "ml"
+  },
+  {
+    "MedId": "7278",
+    "DispensedMedication": "Hydromorphone Hydrochloride tablet 400 mg",
+    "Drug": "Hydromorphone Hydrochloride",
+    "Form": "tablet",
+    "Dose": "400 mg",
+    "Units": "mg"
+  }
+]

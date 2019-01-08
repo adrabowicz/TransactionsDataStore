@@ -1,0 +1,24 @@
+﻿{
+  "name": "test-json-index",
+  "fields": [
+    {
+      "name": "FileName",
+      "type": "Edm.String",
+      "key": true,
+      "searchable": false,
+      "retrievable": true,
+      "facetable": false,
+      "filterable": false,
+      "sortable": true
+    },
+    {
+      "name": "MaximumAge",
+      "type": "Edm.Int32",
+      "searchable": false,
+      "retrievable": true,
+      "facetable": true,
+      "filterable": true,
+      "sortable": true
+    }
+  ]
+}
