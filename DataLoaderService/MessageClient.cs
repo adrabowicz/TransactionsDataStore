@@ -31,7 +31,7 @@ namespace DataLoaderService
             }
         }
 
-        public static void LoadTransactionDataIntoIndex(List<AppTransaction> data)
+        public static void LoadTransactionDataIntoIndex(List<AppTile> data)
         {
             foreach (var transaction in data)
             {

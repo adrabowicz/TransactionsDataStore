@@ -7,9 +7,9 @@ namespace DataService
 {
     public static class TransactionDataFactory
     {
-        public static List<AppTransaction> AddTransactionData(List<Encounter> encounters, int maxTransactionsPerEncounter, DateTime startDate, DateTime endDate)
+        public static List<AppTile> AddTransactionData(List<Encounter> encounters, int maxTransactionsPerEncounter, DateTime startDate, DateTime endDate)
         {
-            var data = new List<AppTransaction>();
+            var appTiles = new List<AppTile>();
             
             var random = new Random(Guid.NewGuid().GetHashCode());
 
@@ -21,45 +21,47 @@ namespace DataService
                 var dateString = DataUtility.FormatCurrentDateTime();
                 var transactionsPerEncounter = random.Next(1, maxTransactionsPerEncounter);
 
+                var appTile = new AppTile
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    BatchId = string.Empty,
+                    RunId = string.Empty,
+                    TimestampLocal = DateTime.Now,
+                    TimestampUtc = DateTime.UtcNow,
+                    ClientKey = 0,
+                    SourceId = random.Next(1, 40).ToString(),
+                    DispenseTransactionKey = 0,
+                    EncounterId = encounters[i].EncounterId,
+                    MedId = random.Next(1, 8).ToString(),
+                    StationName = string.Empty,
+                    OrderAmount = null,
+                    OrderUnits = null,
+                };
+
+                appTile.AppTransactions = new List<AppTileTransaction>();
+
                 for (var j = 0; j < transactionsPerEncounter; j++)
                 {
-                    var transaction = new AppTransaction
-                    {
-                        Id = Guid.NewGuid(),
-                        SourceType = ((SourceTypeEnum)random.Next(1, 4)).ToString(),
-                        SourceId = random.Next(1, 40).ToString(),
-                        EncounterId = encounters[i].EncounterId,
-                        PartyId = random.Next(1, 99).ToString(),
-                        MedId = random.Next(1, 8).ToString(),
-                        TransactionType = ((TransactionTypeEnum)random.Next(1, 5)).ToString(),
-                        TransactionAmount = random.Next(1, 10000)
-                    };
+                    var transaction = new AppTileTransaction();
+
+                    transaction.RelatedTransactionKey = 0;
 
                     var encounterStartDate = DataUtility.GetRandomDateTime(random, startDate, endDate);
-                    transaction.Timestamp = encounterStartDate;
+                    transaction.TransactionDateTime = encounterStartDate;
 
-                    Console.WriteLine($"Id: {transaction.Id}, timestamp: {transaction.Timestamp}");
+                    transaction.TransactionType = ((TransactionTypeEnum)random.Next(1, 5)).ToString();
+                    transaction.TransactionAmount = random.Next(1, 10000);
+                    transaction.TransactionUnits = string.Empty;
 
-                    transaction.EncounterStartDate = encounterStartDate;
-                    var encounterEndDate = DataUtility.GetRandomDateTime(random, encounterStartDate, endDate);
-                    transaction.EncounterEndDate = encounterEndDate;
-                    transaction.TransactionDateTime = DataUtility.GetRandomDateTime(random, encounterStartDate, encounterEndDate);
-                    transaction.PartyMaskedName = personData[int.Parse(transaction.PartyId)].MaskedName;
-                    transaction.PartyName = personData[int.Parse(transaction.PartyId)].Name;
-                    transaction.DispensedMedication = medicationData[int.Parse(transaction.MedId)].DispensedMedication;
-                    transaction.FormularyDrug = medicationData[int.Parse(transaction.MedId)].FormularyDrug;
-                    transaction.FormularyForm = medicationData[int.Parse(transaction.MedId)].FormularyFormFactor;
-                    transaction.FormularyDose = medicationData[int.Parse(transaction.MedId)].FormularyDose;
-                    var dose = transaction.FormularyDose.Split(new char[] { ' ' });
-                    transaction.FormularyDoseAmount = decimal.Parse(dose[0]);
-                    transaction.FormularyDoseUnits = dose[1];
-                    transaction.TransactionUnits = transaction.FormularyDoseUnits;
+                    transaction.PartyId = random.Next(1, 99).ToString();
 
-                    data.Add(transaction);
+                    appTile.AppTransactions.Add(transaction);
                 }
+
+                appTiles.Add(appTile);
             }
 
-            return data;
+            return appTiles;
         }
     }
 }

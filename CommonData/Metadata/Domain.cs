@@ -1,16 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CommonData.Metadata
 {
-    public enum SourceTypeEnum
-    {
-        Unknown = 0,
-        SourceType1 = 1,
-        SourceType2 = 2,
-        SourceType3 = 3,
-        SourceType4 = 4
-    }
-
     public enum TransactionTypeEnum
     {
         Unknown = 0,
@@ -21,42 +13,37 @@ namespace CommonData.Metadata
         DispenseCancel = 5
     }
 
-    public class SourceTransaction
+    public class AppTile
     {
-        public Guid Id { get; set; }
+        public AppTile()
+        {
+            AppTransactions = new List<AppTileTransaction>();
+        }
+
+        public string Id { get; set; }
+        public string BatchId { get; set; }
+        public string RunId { get; set; }
+        public DateTime TimestampLocal { get; set; }
+        public DateTime TimestampUtc { get; set; }
+        public int ClientKey { get; set; }
         public string SourceId { get; set; }
+        public long DispenseTransactionKey { get; set; }
         public string EncounterId { get; set; }
-        public string PartyId { get; set; }
         public string MedId { get; set; }
-        public string TransactionType { get; set; }
-        public string TransactionDateTime { get; set; }
-        public decimal TransactionAmount { get; set; }
-        public string TransactionUnits { get; set; }
+        public string StationName { get; set; }
+        public decimal? OrderAmount { get; set; }
+        public string OrderUnits { get; set; }
+        public List<AppTileTransaction> AppTransactions { get; set; }
     }
 
-    public class AppTransaction
+    public class AppTileTransaction
     {
-        public Guid Id { get; set; }
-        public DateTime Timestamp { get; set; }
-        public string SourceId { get; set; }
-        public string EncounterId { get; set; }
-        public string PartyId { get; set; }
-        public string MedId { get; set; }
-        public string SourceType { get; set; }
-        public DateTime EncounterStartDate { get; set; }
-        public DateTime EncounterEndDate { get; set; }
+        public long? RelatedTransactionKey { get; set; }
         public string TransactionType { get; set; }
         public DateTime TransactionDateTime { get; set; }
         public decimal TransactionAmount { get; set; }
         public string TransactionUnits { get; set; }
-        public string PartyMaskedName { get; set; }
-        public string PartyName { get; set; }
-        public string DispensedMedication { get; set; }
-        public string FormularyDrug { get; set; }
-        public string FormularyForm { get; set; }
-        public string FormularyDose { get; set; }
-        public decimal FormularyDoseAmount { get; set; }
-        public string FormularyDoseUnits { get; set; }
+        public string PartyId { get; set; }
     }
 
     public class Source
