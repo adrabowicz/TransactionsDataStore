@@ -13,10 +13,10 @@ namespace DataLoader
 
         private static void LoadTransactionDataIntoIndex()
         {
-            MessageClient.SetupClient();
+            MessageClient.SetupElasticClient();
 
-            var startDate = new DateTime(2018, 9, 1);
-            var endDate = new DateTime(2018, 10, 1);
+            var startDate = new DateTime(2019, 6, 1);
+            var endDate = new DateTime(2019, 7, 1);
 
             var encounters = EncounterDataFactory.CreateEncounterData(100, startDate, endDate);
             var data = TransactionDataFactory.AddTransactionData(encounters, 8, startDate, endDate);
@@ -25,7 +25,7 @@ namespace DataLoader
 
         private static void LoadPersonDataIntoIndex()
         {
-            MessageClient.SetupClient();
+            MessageClient.SetupElasticClient();
 
             var data = PartyDataFactory.CreatePersonData(100);
             MessageClient.LoadPersonDataIntoIndex(data);

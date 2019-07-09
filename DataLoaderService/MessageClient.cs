@@ -13,7 +13,7 @@ namespace DataLoaderService
 
         private static ElasticLowLevelClient lowlevelClient;
 
-        public static void SetupClient()
+        public static void SetupElasticClient()
         {
             var settings = new ConnectionConfiguration(new Uri(elasticsearchUrl));
             settings.RequestTimeout(TimeSpan.FromMinutes(2));

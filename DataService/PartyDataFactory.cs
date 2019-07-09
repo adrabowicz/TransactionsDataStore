@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using CommonData;
 using CommonData.Metadata;
 
@@ -15,7 +16,7 @@ namespace DataService
                 var dateString = DataUtility.FormatCurrentDateTime();
                 var person = new Person
                 {
-                    Id = i.ToString(),
+                    Id = Guid.NewGuid().ToString(),
                     Name = "Person_" + i.ToString(),
                     Quantity = i,
                     Timestamp = dateString
